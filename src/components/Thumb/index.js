@@ -14,6 +14,6 @@ const Thumb = ({ image, movieId, clickable }) => (
             <Image src={image} alt='movie-thumb' />
         )}
     </div>
-)
+);
 
 export default Thumb;
