@@ -32,13 +32,13 @@ export const Content = styled.div`
         margin: 8px 0;
         padding: 0 0 0 60px;
         border: 0;
-        width: 95%auto;
+        width: 95%;
         background: transparent;
         height: 40px;
         color: var(--white);
 
         :focus {
-            outline: none;
+            outline: none; 
         }
     }
 `;
