@@ -26,14 +26,13 @@ const Home = () => {
 
   return (
     <>
-      {!searchTerm && state.results[0] ?
-        <HeroImage 
+      {!searchTerm && state.results[0] ? (
+        <HeroImage
           image={`${IMAGE_BASE_URL}${BACKDROP_SIZE}${state.results[0].backdrop_path}`}
           title={state.results[0].original_title}
           text={state.results[0].overview}
-        /> 
-        : null
-      }
+        />
+      ) : null}
       <SearchBar setSearchTerm={setSearchTerm} />
       <Grid header={searchTerm ? 'Search Result' : 'Popular Movies'}>
         {state.results.map(movie => (
@@ -54,7 +53,7 @@ const Home = () => {
         <Button text='Load More' callback={() => setIsLoadingMore(true)} />
       )}
     </>
-  )
+  );
 };
 
 export default Home;
