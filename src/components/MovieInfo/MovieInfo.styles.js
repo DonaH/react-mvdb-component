@@ -34,7 +34,7 @@ export const Content = styled.div`
 
 export const Text = styled.div`
   width: 100%;
-  padding: 20px 4px;
+  padding: 20px 40px;
   color: var(--white);
   overflow: hidden;
 
