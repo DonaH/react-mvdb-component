@@ -1,4 +1,6 @@
-# React App with Movie Database API
+# React App with Movie Database API 
+
+## * Using Class Component *
 
 ## Getting Started with Create React App
 
